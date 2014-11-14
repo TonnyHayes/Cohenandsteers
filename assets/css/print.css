@@ -1,0 +1,322 @@
+/* ----------------------------------------------------------------
+
+PRINT
+
+	General
+	Preferreds Tools
+	Morningstar
+	Calendar
+
+---------------------------------------------------------------- */
+/* `.General
+---------------------------------------------- */
+pre, blockquote {
+  border: 1px solid #999;
+  page-break-inside: avoid; }
+
+thead {
+  display: table-header-group; }
+
+/* h5bp.com/t */
+tr, img {
+  page-break-inside: avoid; }
+
+img {
+  max-width: 100% !important; }
+
+p, h2, h3 {
+  orphans: 3;
+  widows: 3; }
+
+h2, h3 {
+  page-break-after: avoid; }
+
+li {
+  list-style: none; }
+
+* {
+  float: none;
+  color: #000 !important;
+  text-shadow: none !important;
+  filter: none !important;
+  -ms-filter: none !important;
+  background-color: #fff !important;
+  position: static !important; }
+
+.page-break {
+  clear: both;
+  display: block;
+  page-break-before: always; }
+
+ul {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+img {
+  max-width: 100%;
+  border: 0; }
+
+body {
+  font-size: 14px;
+  padding-bottom: 20px; }
+
+html,
+body,
+#g-header {
+  background-color: #fff; }
+
+#g-header .wrapper {
+  padding-bottom: 0.75em;
+  height: auto; }
+
+#g-logo {
+  width: 100%;
+  border-bottom: 2px solid #000;
+  background-color: #fff;
+  position: static; }
+  #g-logo a {
+    bottom: 15px;
+    position: static; }
+
+#logo-screen,
+.logo-small-screen {
+  display: none; }
+
+.page {
+  margin-bottom: 30px; }
+
+.for-print-only,
+.sidebar-ratings-print,
+#g-footer-print {
+  display: block; }
+
+#logo-print,
+.sidebar-ratings-print,
+#g-footer-print {
+  display: block;
+  padding-bottom: 0.75em; }
+
+#category-title {
+  color: #000 !important;
+  font-size: 0.625em;
+  line-height: 1em; }
+  #category-title span {
+    font-weight: normal; }
+
+#g-subheader,
+#g-nav-user,
+.sticky,
+.sticky-wrapper,
+#article-footer,
+.nav-tabs,
+#g-footer {
+  display: none !important; }
+
+#g-nav-user {
+  display: none !important; }
+
+#g-footer-print {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #000; }
+
+#g-footer-copy {
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-top: 1px solid #000; }
+
+.wrapper {
+  width: 592px;
+  padding: 0;
+  margin: 0 auto;
+  border: 0;
+  background-color: #fff !important; }
+
+.l-main {
+  width: 592px; }
+
+.page-headline,
+.page-subheadline,
+#article-content-wrapper,
+#article-content-plus-details,
+#article-content,
+#article-content.article-content-large,
+#article-content .article-content-small {
+  width: 100%; }
+
+.figure-table {
+  border-bottom: 2px solid #ccc; }
+  .figure-table tr {
+    border: 0; }
+  .figure-table td {
+    margin-left: -1px;
+    border-top: 1px solid #ccc;
+    vertical-align: top; }
+  .figure-table td.table-label .table-label-lit {
+    display: none; }
+  .figure-table td.table-label div.fixed {
+    position: absolute; }
+
+#article.fund .figure-table {
+  width: 592px; }
+
+.figure-full-width {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0; }
+
+#article-content .no-sidebar .figure-full-width,
+#article-content.no-sidebar .figure-full-width {
+  margin-left: 0; }
+
+.figure-full-width-caption-aside img {
+  max-width: 400px; }
+
+.figure-aside {
+  margin-left: 0;
+  margin-right: 0;
+  float: none; }
+  .figure-aside.print-full-width {
+    width: 100%; }
+
+.figure-aside-2 {
+  padding: 0; }
+
+.team-member {
+  margin: 0; }
+
+.team-member-photo {
+  display: none;
+  border-bottom: 0 !important; }
+
+.author-info {
+  margin-bottom: 10px; }
+
+#article-content.no-sidebar {
+  margin-left: 0; }
+
+.sidebar {
+  margin-bottom: 20px; }
+
+.sidebar-ratings-screen {
+  display: none; }
+
+.sidebar-shifted-left {
+  width: 100%;
+  min-height: 1px;
+  float: none;
+  clear: both;
+  margin-left: 0;
+  margin-right: 0; }
+  .sidebar-shifted-left:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+.sidebar-block {
+  width: 171px;
+  float: left;
+  margin-right: 40px;
+  border: 2px solid #000; }
+
+.sidebar-block-section {
+  margin-top: 30px;
+  border-bottom: 1px solid #000; }
+
+.sidebar-data {
+  padding-top: 0; }
+
+.icon-star-white {
+  background-position: -0px -138px; }
+
+.icon-star-blue {
+  background-position: -28px -138px; }
+
+.logo-morningstar {
+  background-position: -69px -23px; }
+
+.icon-star-small-filled {
+  background: none;
+  height: auto;
+  width: auto; }
+
+.icon-star-small-unfilled {
+  background: none;
+  height: auto;
+  width: auto; }
+
+.i-morningstar-print-star {
+  display: block; }
+
+/* `.Preferreds Tools
+---------------------------------------------- */
+.pt-text-input {
+  border: 0; }
+
+#pt-page .page-title,
+#pt-page .l-main,
+#pt-refresh,
+#pt-sample-desc,
+#pt-data-actions,
+#pt-footer {
+  display: none; }
+
+.pt-title-image {
+  display: block;
+  padding-bottom: 30px; }
+
+#pt-data-wrapper {
+  margin-bottom: 25px; }
+
+.pt-cpxix .select-wrapper-pct,
+.select-wrapper-pct {
+  background-image: none; }
+
+.pt-date {
+  display: block;
+  width: 710px;
+  padding-left: 0;
+  padding-right: 0;
+  float: left;
+  margin-right: 0px; }
+
+/* `.Morningstar
+---------------------------------------------- */
+/* `.Calendar
+---------------------------------------------- */
+.pt-noshow {
+  display: none !important; }
+
+.calendar-display #logo-print {
+  width: 240px; }
+.calendar-display #category-title {
+  margin-bottom: 14px; }
+.calendar-display h3.lede {
+  float: right;
+  margin: -60px 0 10px 0;
+  font-size: 20px; }
+.calendar-display #calendar_body {
+  margin-top: -5px; }
+.calendar-display #calendar th {
+  border: 0;
+  line-height: 1.2em;
+  font-size: 11px; }
+.calendar-display #calendar td {
+  margin: 0;
+  padding: 5px 2px 2px 5px;
+  height: 80px;
+  vertical-align: top;
+  font-size: 11px; }
+  .calendar-display #calendar td p {
+    font-size: 10px; }
+  .calendar-display #calendar td img.cal-icon {
+    width: 10px; }
+.calendar-display #g-footer-print {
+  display: none; }
+
+/*# sourceMappingURL=print.css.map */
