@@ -83,7 +83,7 @@ body,
 #logo-screen,
 .logo-small-screen {
   display: none; }
-
+h6 {font-size:14px;}
 .page {
   margin-bottom: 30px; }
 
@@ -111,7 +111,9 @@ body,
 .sticky-wrapper,
 #article-footer,
 .nav-tabs,
-#g-footer {
+#g-footer,
+.view-type,
+.nav-opener {
   display: none !important; }
 
 #g-nav-user {

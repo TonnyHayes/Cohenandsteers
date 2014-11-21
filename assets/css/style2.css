@@ -109,7 +109,7 @@
 	position: relative;
 	top: 24px
 }
-.small-slider ul li a.btn {
+.small-slider ul li .btn {
 	display: block;
 	margin: 0
 	auto;
@@ -124,7 +124,7 @@
 	line-height: 31px;
 	color: #fff
 }
-.small-slider ul li a.btn i {
+.small-slider ul li .btn i {
 	width: 18px;
 	height: 31px;
 	position: absolute;
@@ -132,7 +132,7 @@
 	top: 0px;
 	background: url('/assets/css/survey-slider/images/orange-arr.png') no-repeat 0 0
 }
-.small-slider ul li a.orange-btn {
+.small-slider ul li .orange-btn {
 	margin-left: 38px;
 	padding-left: 12px
 }
@@ -202,14 +202,15 @@
 	.small-slider ul li h3 {
 		font-size:16px;
 		line-height:20px;
+		padding-bottom:3px;
 	}
 	.small-slider ul li h3 strong {font-size:18px;}
-	.small-slider ul li a.btn {
+	.small-slider ul li .btn {
 		font-size:18px;
 		line-height:22px;
 		height:22px;
 	}
-	.small-slider ul li a.orange-btn {
+	.small-slider ul li .orange-btn {
 		margin-left:auto;
 		padding:0;
 	}
